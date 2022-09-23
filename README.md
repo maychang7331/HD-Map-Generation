@@ -32,8 +32,8 @@ To train a model for point cloud segmentation, firstly convert Shalun experiment
 
 
 To generate the correct data format for training input, run as the follows:
-* `gen_npy_data.py`: Converts the dataset file format from txt to npy, and saved in the folder /data/shalun_npy.
-* `gen_h5_data.py`: Converts the dataset file format from npy to h5, and saved in the folder /data/shalun_h5.
+* `gen_npy_data.py`: Converts the dataset file format from txt to npy, and saved in the folder `/data/shalun_npy`.
+* `gen_h5_data.py`: Converts the dataset file format from npy to h5, and saved in the folder `/data/shalun_h5`.
 
 Run `train.py` and `test.py` in `pointnet` folder for training and testing. The trained model will be saved under the log directory with its name specified by user.
 
