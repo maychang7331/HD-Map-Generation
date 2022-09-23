@@ -22,6 +22,9 @@ Next, these images of interest are input to a [traffic sign classifier](https://
 Finally, an output text file including precise placement of traffic sign in 3D coordinate (geolocation), the position of both bottom-left and top-right of the traffic sign bounding box (bboxMin and bboxMax), as well as the type (code) is generated for further use in HD maps.
 
 
+## Requirements
+Install TensorFlow. One may also need to install [h5py](https://docs.h5py.org/en/stable/). The code was tested with Python 3.7, TensorFlow 1.14.0, CUDA 11.0 on Ubuntu 16.04.
+
 
 ## Usage
 ### Stage 1. Point Cloud Segmentation
@@ -48,8 +51,4 @@ Run `groundtruth_bbox_calculation.py` under `projection` to obtain the groundtru
 To classify the tpye of each traffic sign cluster, run `train.py` and `test.py` under `classification` for pre-training a traffic sign classifier and testing.
 
 Note that this work trains its own traffic sign classifier with image dataset collected from Google Street Maps or taken in person.
-
-
-## Requirements
-Install TensorFlow. One may also need to install h5py. The code was tested with Python 3.7, TensorFlow 1.14.0, CUDA 11.0 on Ubuntu 16.04.
 
