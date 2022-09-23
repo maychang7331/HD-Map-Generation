@@ -1,5 +1,5 @@
 # Applying Deep Learning to MMS Point Cloud Semantic Segmentation and Image Classification for HD Map Generation
-d
+
 <img src="docs/pointcloud.png"/>
 
 ## Introduction
