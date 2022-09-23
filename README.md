@@ -25,11 +25,8 @@ Finally, an output text file including precise placement of traffic sign in 3D c
 
 ## Usage
 ### Stage 1. Point Cloud Segmentation
-To train a model for point cloud segmentation, firstly convert Shalun experimental dataset from LAS files to txt by running `main.m` under the `preparation` folder.
+To train a model for point cloud segmentation, firstly convert Shalun experimental dataset from LAS files to txt by running `main.m` under the `preparation` folder. (See [LAS File Specification](https://www.asprs.org/a/society/committees/standards/asprs_las_format_v12.pdf))
 
-```
-For LAS file discription please refer to [LAS Specification Version 1.2](https://www.asprs.org/a/society/committees/standards/asprs_las_format_v12.pdf)
-```
 
 To generate the correct data format for training input, run as the follows:
 * `gen_npy_data.py`: Converts the dataset file format from txt to npy, and saved in the folder /data/shalun_npy.
