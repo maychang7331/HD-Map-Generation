@@ -3,6 +3,8 @@
 <img src="docs/pointcloud.png"/>
 
 ## Introduction
+[ [Paper Link](https://drive.google.com/drive/u/0/folders/1b3PEfHC4_Vg8F6YlxilOYxldrap3LXq1) | [Slide](https://drive.google.com/file/d/1Wysr7aB_fIO80o47r-ZVPVcfXlpmXI1v/view?usp=sharing) ]
+
 The ongoing race toward an autonomous era results in the development of High Definition (HD) Maps. (see [HD Map Guidelines in Taiwan](http://hdmap.geomatics.ncku.edu.tw/publications-US.php)) To help extend the vision of self-driving vehicles and guarantee safety, HD maps provide detailed information about on-road environments with precise location and semantic meaning. However, one main challenge when making such a map is that it requires a massive amount of manual annotation, which is time-consuming and laborious. 
 
 As such, this thesis is intended to put forward the entire workflow of building static layers of traffic sign HD maps. Also, the study hopes to apply deep learning techniques in several processes in achieving automation as a faster approach to extract information. Both point cloud and image data collected by Mobile Mapping System (MMS) are used in this research. 
